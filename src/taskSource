@@ -1,0 +1,28 @@
+function taskSource() {
+  const [tasks, setTasks] = useState([
+    {
+      id: 1,
+      text: "Medical Check-Up",
+      day: "September 3rd",
+      reminder: true,
+    },
+    {
+      id: 2,
+      text: "Date With Sharon",
+      day: "September 15th",
+      reminder: true,
+    },
+    {
+      id: 3,
+      text: "Foof Shopping",
+      day: "September 7th",
+      reminder: false,
+    },
+    {
+      id: 4,
+      text: "Meeting at the Office",
+      day: "September 4th",
+      reminder: true,
+    },
+  ]);
+  export default taskSource
